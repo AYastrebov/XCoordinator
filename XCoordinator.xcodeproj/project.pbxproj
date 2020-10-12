@@ -66,8 +66,6 @@
 		OBJ_449 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ViewCoordinator.swift */; };
 		OBJ_450 /* WeakErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* WeakErased+Router.swift */; };
 		OBJ_451 /* WeakErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* WeakErased.swift */; };
-		OBJ_458 /* Router+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Router+Combine.swift */; };
-		OBJ_460 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */; };
 		OBJ_467 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_489 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* AnimationTests.swift */; };
 		OBJ_490 /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* TestAnimation.swift */; };
@@ -79,13 +77,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9BC82EB9233D8CD000C604A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "XCoordinator::XCoordinator";
-			remoteInfo = XCoordinator;
-		};
 		9BC82EBC233D8CD100C604A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -317,7 +308,6 @@
 		OBJ_98 /* CompositeDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeDisposable.swift; sourceTree = "<group>"; };
 		OBJ_99 /* Concat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concat.swift; sourceTree = "<group>"; };
 		"XCoordinator::XCoordinator::Product" /* XCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"XCoordinator::XCoordinatorCombine::Product" /* XCoordinatorCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCoordinatorCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"XCoordinator::XCoordinatorTests::Product" /* XCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = XCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -326,14 +316,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_459 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_460 /* XCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +342,6 @@
 			isa = PBXGroup;
 			children = (
 				"XCoordinator::XCoordinator::Product" /* XCoordinator.framework */,
-				"XCoordinator::XCoordinatorCombine::Product" /* XCoordinatorCombine.framework */,
 				"XCoordinator::XCoordinatorTests::Product" /* XCoordinatorTests.xctest */,
 			);
 			name = Products;
@@ -734,23 +715,6 @@
 			productReference = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"XCoordinator::XCoordinatorCombine" /* XCoordinatorCombine */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_454 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */;
-			buildPhases = (
-				OBJ_457 /* Sources */,
-				OBJ_459 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_461 /* PBXTargetDependency */,
-			);
-			name = XCoordinatorCombine;
-			productName = XCoordinatorCombine;
-			productReference = "XCoordinator::XCoordinatorCombine::Product" /* XCoordinatorCombine.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		"XCoordinator::XCoordinatorTests" /* XCoordinatorTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_485 /* Build configuration list for PBXNativeTarget "XCoordinatorTests" */;
@@ -791,7 +755,6 @@
 			projectRoot = "";
 			targets = (
 				"XCoordinator::XCoordinator" /* XCoordinator */,
-				"XCoordinator::XCoordinatorCombine" /* XCoordinatorCombine */,
 				"XCoordinator::SwiftPMPackageDescription" /* XCoordinatorPackageDescription */,
 				"XCoordinator::XCoordinatorPackageTests::ProductTarget" /* XCoordinatorPackageTests */,
 				"XCoordinator::XCoordinatorTests" /* XCoordinatorTests */,
@@ -872,14 +835,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_457 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_458 /* Router+Combine.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_466 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -904,11 +859,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_461 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "XCoordinator::XCoordinator" /* XCoordinator */;
-			targetProxy = 9BC82EB9233D8CD000C604A8 /* PBXContainerItemProxy */;
-		};
 		OBJ_472 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "XCoordinator::XCoordinatorTests" /* XCoordinatorTests */;
@@ -1084,64 +1034,6 @@
 			};
 			name = Release;
 		};
-		OBJ_455 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinatorCombine_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = XCoordinatorCombine;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = XCoordinatorCombine;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_456 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinatorCombine_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = XCoordinatorCombine;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = XCoordinatorCombine;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		OBJ_464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1239,15 +1131,6 @@
 			buildConfigurations = (
 				OBJ_404 /* Debug */,
 				OBJ_405 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_454 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_455 /* Debug */,
-				OBJ_456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
