@@ -69,7 +69,7 @@ open class RedirectionRouter<ParentRoute: Route, RouteType: Route>: Router {
 
     // MARK: Methods
     
-    public final func setViewController(_ viewController: UIViewController) {
+    final func setViewController(_ viewController: UIViewController) {
         self.viewController = viewController
     }
 
