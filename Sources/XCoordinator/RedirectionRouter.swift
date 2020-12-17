@@ -54,24 +54,15 @@ open class RedirectionRouter<ParentRoute: Route, RouteType: Route>: Router {
     ///     - map:
     ///         A mapping from this RedirectionRouter's routes to the parent's routes.
     ///
-    public init(parent: UnownedRouter<ParentRoute>,
+    public init(viewController: UIViewController,
+                parent: UnownedRouter<ParentRoute>,
                 map: ((RouteType) -> ParentRoute)?) {
         self.parent = parent
         self._map = map
-    }
-    
-    convenience init(viewController: UIViewController,
-                     parent: UnownedRouter<ParentRoute>,
-                     map: ((RouteType) -> ParentRoute)?) {
-        self.init(parent: parent, map: map)
         self.viewController = viewController
     }
 
     // MARK: Methods
-    
-    final func setViewController(_ viewController: UIViewController) {
-        self.viewController = viewController
-    }
 
     open func contextTrigger(_ route: RouteType,
                              with options: TransitionOptions,
@@ -96,12 +87,5 @@ open class RedirectionRouter<ParentRoute: Route, RouteType: Route>: Router {
             fatalError("Please implement \(#function) or use the `map` closure in the initializer.")
         }
         return map(route)
-    }
-}
-
-//https://github.com/quickbirdstudios/XCoordinator/issues/195
-public extension RedirectionRouter {
-    var unownedRouter: UnownedRouter<RouteType> {
-        UnownedRouter(self) { $0.strongRouter }
     }
 }
