@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD9C193F26397257001A707E /* CoordinatorContextMenuInteractionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */; };
 		OBJ_407 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Animation.swift */; };
 		OBJ_408 /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AnyCoordinator.swift */; };
 		OBJ_409 /* AnyTransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AnyTransitionPerformer.swift */; };
@@ -81,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorContextMenuInteractionDelegate.swift; sourceTree = "<group>"; };
 		OBJ_10 /* AnyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCoordinator.swift; sourceTree = "<group>"; };
 		OBJ_11 /* AnyTransitionPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionPerformer.swift; sourceTree = "<group>"; };
 		OBJ_12 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				OBJ_13 /* BasicCoordinator.swift */,
 				OBJ_14 /* Container.swift */,
 				OBJ_15 /* Coordinator.swift */,
+				9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */,
 				OBJ_16 /* CoordinatorPreviewingDelegateObject.swift */,
 				OBJ_17 /* DeepLinking.swift */,
 				OBJ_18 /* GestureRecognizerTarget.swift */,
@@ -272,8 +275,8 @@
 				OBJ_35 /* TabBarAnimationDelegate.swift */,
 				OBJ_36 /* TabBarCoordinator.swift */,
 				OBJ_37 /* TabBarTransition.swift */,
-				OBJ_38 /* Transition+Init.swift */,
 				OBJ_39 /* Transition.swift */,
+				OBJ_38 /* Transition+Init.swift */,
 				OBJ_40 /* TransitionAnimation.swift */,
 				OBJ_41 /* TransitionOptions.swift */,
 				OBJ_42 /* TransitionPerformer.swift */,
@@ -283,11 +286,11 @@
 				OBJ_46 /* UITabBarController+Transition.swift */,
 				OBJ_47 /* UIView+Store.swift */,
 				OBJ_48 /* UIViewController+Transition.swift */,
-				OBJ_49 /* UnownedErased+Router.swift */,
 				OBJ_50 /* UnownedErased.swift */,
+				OBJ_49 /* UnownedErased+Router.swift */,
 				OBJ_51 /* ViewCoordinator.swift */,
-				OBJ_52 /* WeakErased+Router.swift */,
 				OBJ_53 /* WeakErased.swift */,
+				OBJ_52 /* WeakErased+Router.swift */,
 			);
 			name = XCoordinator;
 			path = Sources/XCoordinator;
@@ -413,6 +416,7 @@
 				OBJ_437 /* Transition.swift in Sources */,
 				OBJ_438 /* TransitionAnimation.swift in Sources */,
 				OBJ_439 /* TransitionOptions.swift in Sources */,
+				BD9C193F26397257001A707E /* CoordinatorContextMenuInteractionDelegate.swift in Sources */,
 				OBJ_440 /* TransitionPerformer.swift in Sources */,
 				OBJ_441 /* TransitionProtocol.swift in Sources */,
 				OBJ_442 /* UINavigationController+Transition.swift in Sources */,
@@ -507,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
@@ -559,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,7 +586,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinator_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
@@ -612,7 +616,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinator_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
