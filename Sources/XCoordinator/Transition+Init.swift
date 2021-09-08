@@ -20,11 +20,12 @@ extension Transition {
     /// - Parameter presentable:
     ///     The presentable to be shown as a primary view controller.
     ///
-    public static func show(_ presentable: Presentable) -> Transition {
+    public static func show(_ presentable: Presentable, sender: Any? = nil) -> Transition {
         Transition(presentables: [presentable], animationInUse: nil) { rootViewController, options, completion in
             rootViewController.show(
                 presentable.viewController,
-                with: options
+                with: options,
+                sender: sender
             ) {
                 presentable.presented(from: rootViewController)
                 completion?()
@@ -42,11 +43,12 @@ extension Transition {
     /// - Parameter presentable:
     ///     The presentable to be shown as a detail view controller.
     ///
-    public static func showDetail(_ presentable: Presentable) -> Transition {
+    public static func showDetail(_ presentable: Presentable, sender: Any? = nil) -> Transition {
         Transition(presentables: [presentable], animationInUse: nil) { rootViewController, options, completion in
             rootViewController.showDetail(
                 presentable.viewController,
-                with: options
+                with: options,
+                sender: sender
             ) {
                 presentable.presented(from: rootViewController)
                 completion?()

@@ -16,13 +16,14 @@ extension UIViewController {
 
     func show(_ viewController: UIViewController,
               with options: TransitionOptions,
+              sender: Any? = nil,
               completion: PresentationHandler?) {
 
         CATransaction.begin()
         CATransaction.setCompletionBlock(completion)
 
         autoreleasepool {
-            show(viewController, sender: nil)
+            show(viewController, sender: sender)
         }
 
         CATransaction.commit()
@@ -30,13 +31,14 @@ extension UIViewController {
 
     func showDetail(_ viewController: UIViewController,
                     with options: TransitionOptions,
+                    sender: Any? = nil,
                     completion: PresentationHandler?) {
 
         CATransaction.begin()
         CATransaction.setCompletionBlock(completion)
 
         autoreleasepool {
-            showDetailViewController(viewController, sender: nil)
+            showDetailViewController(viewController, sender: sender)
         }
 
         CATransaction.commit()
