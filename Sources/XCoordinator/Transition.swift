@@ -40,14 +40,16 @@ public struct Transition<RootViewController: UIViewController>: TransitionProtoc
     ///         It is called when the transition (including all animations) is completed.
     ///
     public typealias PerformClosure = (_ rootViewController: RootViewController,
+                                       _ animation: Animation?,
                                        _ options: TransitionOptions,
                                        _ completion: PresentationHandler?) -> Void
 
     // MARK: Stored properties
 
-    private var _presentables: [Presentable]
-    private var _animation: TransitionAnimation?
-    private var _perform: PerformClosure
+    private let _presentables: [Presentable]
+    private let _animationInUse: TransitionAnimation?
+    private let _animation: Animation?
+    private let _perform: PerformClosure
 
     // MARK: Computed properties
 
@@ -65,7 +67,7 @@ public struct Transition<RootViewController: UIViewController>: TransitionProtoc
     /// is returned.
     ///
     public var animation: TransitionAnimation? {
-        _animation
+        _animationInUse
     }
 
     // MARK: Initialization
@@ -91,9 +93,10 @@ public struct Transition<RootViewController: UIViewController>: TransitionProtoc
     ///         To create custom transitions, make sure to call the completion handler after all animations are done.
     ///         If applicable, make sure to use the TransitionOptions to, e.g., decide whether a transition should be animated or not.
     ///
-    public init(presentables: [Presentable], animationInUse: TransitionAnimation?, perform: @escaping PerformClosure) {
+    public init(presentables: [Presentable], animationInUse: TransitionAnimation?, animation: Animation?, perform: @escaping PerformClosure) {
         self._presentables = presentables
-        self._animation = animationInUse
+        self._animationInUse = animationInUse
+        self._animation = animation
         self._perform = perform
     }
 
@@ -108,9 +111,23 @@ public struct Transition<RootViewController: UIViewController>: TransitionProtoc
     ///
     public func perform(on rootViewController: RootViewController, with options: TransitionOptions, completion: PresentationHandler?) {
         autoreleasepool {
-            _perform(rootViewController, options, completion)
+            _perform(rootViewController, _animation, options, completion)
         }
     }
 
+}
+
+public extension Transition {
+    func withPresentationAnimation(_ animation: TransitionAnimation?) -> Transition {
+        Transition(presentables: _presentables,
+                   animationInUse: animation,
+                   animation: Animation(presentation: animation, dismissal: _animation?.dismissalAnimation),
+                   perform: _perform
+        )
+    }
+    
+    func withPerform(_ perform: @escaping PerformClosure) -> Transition {
+        Transition(presentables: _presentables, animationInUse: _animationInUse, animation: _animation, perform: perform)
+    }
 }
  

@@ -77,7 +77,7 @@ extension Transition {
                                                                  _ route: C.RouteType,
                                                                  array remainingRoutes: [Route]) -> Transition {
 
-        Transition(presentables: [], animationInUse: nil) { [weak coordinator] _, options, completion in
+        Transition(presentables: [], animationInUse: nil, animation: nil) { [weak coordinator] _, _, options, completion in
             guard let coordinator = coordinator else {
                 assertionFailure("Please use the coordinator responsible for executing a deepLink-Transition when initializing.")
                 completion?()

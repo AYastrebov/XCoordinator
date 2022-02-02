@@ -28,8 +28,9 @@ extension Transition where RootViewController: UITabBarController {
     ///
     public static func set(_ presentables: [Presentable], animation: Animation? = nil) -> Transition {
         Transition(presentables: presentables,
-                   animationInUse: animation?.presentationAnimation
-        ) { rootViewController, options, completion in
+                   animationInUse: animation?.presentationAnimation,
+                   animation: animation
+        ) { rootViewController, animation, options, completion in
             rootViewController.set(presentables.map { $0.viewController },
                                    with: options,
                                    animation: animation,
@@ -55,8 +56,9 @@ extension Transition where RootViewController: UITabBarController {
     ///
     public static func select(_ presentable: Presentable, animation: Animation? = nil) -> Transition {
         Transition(presentables: [presentable],
-                   animationInUse: animation?.presentationAnimation
-        ) { rootViewController, options, completion in
+                   animationInUse: animation?.presentationAnimation,
+                   animation: animation
+        ) { rootViewController, animation, options, completion in
             rootViewController.select(presentable.viewController,
                                       with: options,
                                       animation: animation,
@@ -78,8 +80,9 @@ extension Transition where RootViewController: UITabBarController {
     ///
     public static func select(index: Int, animation: Animation? = nil) -> Transition {
         Transition(presentables: [],
-                   animationInUse: animation?.presentationAnimation
-        ) { rootViewController, options, completion in
+                   animationInUse: animation?.presentationAnimation,
+                   animation: animation
+        ) { rootViewController, animation, options, completion in
             rootViewController.select(index: index,
                                       with: options,
                                       animation: animation,
