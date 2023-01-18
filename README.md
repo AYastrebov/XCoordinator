@@ -154,11 +154,11 @@ class AppCoordinator: NavigationCoordinator<AppRoute> {
 }
 ```
 
-⚠️ XCoordinator does not check at compile-time, whether a deep link can be executed. Rather it uses assertionFailures to inform about incorrect chaining at runtime, when it cannot find an appriopriate router for a given route. Keep this in mind when changing the structure of your app.
+⚠️ XCoordinator does not check at compile-time, whether a deep link can be executed. Rather it uses assertionFailures to inform about incorrect chaining at runtime, when it cannot find an appropriate router for a given route. Keep this in mind when changing the structure of your app.
 
 ### 🚏 RedirectionRouter
 
-Let's assume, there is a route type called `HugeRoute` with more than 10 routes. To decrease coupling, `HugeRoute` needs to be split up into mutliple route types. As you will discover, many routes in `HugeRoute` use transitions dependent on a specific rootViewController, such as `push`, `show`, `pop`, etc. If splitting up routes by introducing a new router/coordinator is not an option, XCoordinator has two solutions for you to solve such a case: `RedirectionRouter` or using multiple coordinators with the same rootViewController ([see this section for more information](#using-multiple-coordinators-with-the-same-rootviewcontroller)).
+Let's assume, there is a route type called `HugeRoute` with more than 10 routes. To decrease coupling, `HugeRoute` needs to be split up into multiple route types. As you will discover, many routes in `HugeRoute` use transitions dependent on a specific rootViewController, such as `push`, `show`, `pop`, etc. If splitting up routes by introducing a new router/coordinator is not an option, XCoordinator has two solutions for you to solve such a case: `RedirectionRouter` or using multiple coordinators with the same rootViewController ([see this section for more information](#using-multiple-coordinators-with-the-same-rootviewcontroller)).
 
 A `RedirectionRouter` can be used to map a new route type onto a generalized `ParentRoute`. A `RedirectionRouter` is independent of the `TransitionType` of its parent router. You can use `RedirectionRouter.init(viewController:parent:map:)` or subclassing by overriding `mapToParentRoute(_:)` to create a `RedirectionRouter`.
 
@@ -251,7 +251,7 @@ When using `XCoordinator` with the `Combine` extensions, you can use `router.pub
 
 ## 📚 Documentation & Example app
 
-To get more information about XCoordinator, check out the [documentation](https://quickbirdstudios.github.io/XCoordinator).
+To get more information about XCoordinator, check out the [documentation](https://quickbirdeng.github.io/XCoordinator/).
 Additionally, this [repository](https://github.com/quickbirdstudios/XCoordinator-Example) serves as an example project using a MVVM architecture with XCoordinator.
 
 For a MVC example app, have a look at [some presentations](https://github.com/quickbirdstudios/XCoordinator-Talks) we did about the Coordinator pattern and XCoordinator.

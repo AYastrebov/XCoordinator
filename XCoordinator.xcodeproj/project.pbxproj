@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD9C193F26397257001A707E /* CoordinatorContextMenuInteractionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */; };
-		OBJ_407 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Animation.swift */; };
-		OBJ_408 /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AnyCoordinator.swift */; };
-		OBJ_409 /* AnyTransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AnyTransitionPerformer.swift */; };
-		OBJ_410 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BaseCoordinator.swift */; };
-		OBJ_411 /* BasicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BasicCoordinator.swift */; };
-		OBJ_412 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Container.swift */; };
-		OBJ_413 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Coordinator.swift */; };
-		OBJ_414 /* CoordinatorPreviewingDelegateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* CoordinatorPreviewingDelegateObject.swift */; };
-		OBJ_415 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* DeepLinking.swift */; };
-		OBJ_416 /* GestureRecognizerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* GestureRecognizerTarget.swift */; };
-		OBJ_417 /* InteractiveTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* InteractiveTransitionAnimation.swift */; };
-		OBJ_418 /* InterruptibleTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* InterruptibleTransitionAnimation.swift */; };
-		OBJ_419 /* NavigationAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* NavigationAnimationDelegate.swift */; };
-		OBJ_420 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* NavigationCoordinator.swift */; };
-		OBJ_421 /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* NavigationTransition.swift */; };
-		OBJ_422 /* PageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* PageCoordinator.swift */; };
-		OBJ_423 /* PageCoordinatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* PageCoordinatorDataSource.swift */; };
-		OBJ_424 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* PageTransition.swift */; };
-		OBJ_425 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Presentable.swift */; };
-		OBJ_426 /* RedirectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* RedirectionRouter.swift */; };
-		OBJ_427 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Route.swift */; };
-		OBJ_428 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Router.swift */; };
-		OBJ_429 /* SplitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SplitCoordinator.swift */; };
-		OBJ_430 /* SplitTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SplitTransition.swift */; };
-		OBJ_431 /* StaticTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* StaticTransitionAnimation.swift */; };
-		OBJ_432 /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* StrongRouter.swift */; };
-		OBJ_433 /* TabBarAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TabBarAnimationDelegate.swift */; };
-		OBJ_434 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TabBarCoordinator.swift */; };
-		OBJ_435 /* TabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* TabBarTransition.swift */; };
-		OBJ_436 /* Transition+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Transition+Init.swift */; };
-		OBJ_437 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Transition.swift */; };
-		OBJ_438 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* TransitionAnimation.swift */; };
-		OBJ_439 /* TransitionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* TransitionOptions.swift */; };
-		OBJ_440 /* TransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TransitionPerformer.swift */; };
-		OBJ_441 /* TransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TransitionProtocol.swift */; };
-		OBJ_442 /* UINavigationController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UINavigationController+Transition.swift */; };
-		OBJ_443 /* UIPageViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UIPageViewController+Transition.swift */; };
-		OBJ_444 /* UITabBarController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* UITabBarController+Transition.swift */; };
-		OBJ_445 /* UIView+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* UIView+Store.swift */; };
-		OBJ_446 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* UIViewController+Transition.swift */; };
-		OBJ_447 /* UnownedErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* UnownedErased+Router.swift */; };
-		OBJ_448 /* UnownedErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* UnownedErased.swift */; };
-		OBJ_449 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ViewCoordinator.swift */; };
-		OBJ_450 /* WeakErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* WeakErased+Router.swift */; };
-		OBJ_451 /* WeakErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* WeakErased.swift */; };
-		OBJ_458 /* Router+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Router+Combine.swift */; };
-		OBJ_460 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */; };
-		OBJ_489 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* AnimationTests.swift */; };
-		OBJ_490 /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* TestAnimation.swift */; };
-		OBJ_491 /* TestRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* TestRoute.swift */; };
-		OBJ_492 /* TransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* TransitionTests.swift */; };
-		OBJ_493 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* XCTestManifests.swift */; };
-		OBJ_494 /* XCText+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* XCText+Extras.swift */; };
-		OBJ_498 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */; };
+		BD35FF7C29784CC3000990E3 /* CoordinatorContextMenuInteractionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD35FF7B29784CC3000990E3 /* CoordinatorContextMenuInteractionDelegate.swift */; };
+		OBJ_420 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Animation.swift */; };
+		OBJ_421 /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AnyCoordinator.swift */; };
+		OBJ_422 /* AnyTransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AnyTransitionPerformer.swift */; };
+		OBJ_423 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BaseCoordinator.swift */; };
+		OBJ_424 /* BasicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BasicCoordinator.swift */; };
+		OBJ_425 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Container.swift */; };
+		OBJ_426 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Coordinator.swift */; };
+		OBJ_427 /* CoordinatorPreviewingDelegateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* CoordinatorPreviewingDelegateObject.swift */; };
+		OBJ_428 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* DeepLinking.swift */; };
+		OBJ_429 /* GestureRecognizerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* GestureRecognizerTarget.swift */; };
+		OBJ_430 /* InteractiveTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* InteractiveTransitionAnimation.swift */; };
+		OBJ_431 /* InterruptibleTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* InterruptibleTransitionAnimation.swift */; };
+		OBJ_432 /* NavigationAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* NavigationAnimationDelegate.swift */; };
+		OBJ_433 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* NavigationCoordinator.swift */; };
+		OBJ_434 /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* NavigationTransition.swift */; };
+		OBJ_435 /* PageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* PageCoordinator.swift */; };
+		OBJ_436 /* PageCoordinatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* PageCoordinatorDataSource.swift */; };
+		OBJ_437 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* PageTransition.swift */; };
+		OBJ_438 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Presentable.swift */; };
+		OBJ_439 /* RedirectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* RedirectionRouter.swift */; };
+		OBJ_440 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Route.swift */; };
+		OBJ_441 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Router.swift */; };
+		OBJ_442 /* SplitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* SplitCoordinator.swift */; };
+		OBJ_443 /* SplitTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SplitTransition.swift */; };
+		OBJ_444 /* StaticTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* StaticTransitionAnimation.swift */; };
+		OBJ_445 /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* StrongRouter.swift */; };
+		OBJ_446 /* TabBarAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TabBarAnimationDelegate.swift */; };
+		OBJ_447 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TabBarCoordinator.swift */; };
+		OBJ_448 /* TabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* TabBarTransition.swift */; };
+		OBJ_449 /* Transition+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Transition+Init.swift */; };
+		OBJ_450 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Transition.swift */; };
+		OBJ_451 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* TransitionAnimation.swift */; };
+		OBJ_452 /* TransitionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* TransitionOptions.swift */; };
+		OBJ_453 /* TransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TransitionPerformer.swift */; };
+		OBJ_454 /* TransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TransitionProtocol.swift */; };
+		OBJ_455 /* UINavigationController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UINavigationController+Transition.swift */; };
+		OBJ_456 /* UIPageViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UIPageViewController+Transition.swift */; };
+		OBJ_457 /* UITabBarController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* UITabBarController+Transition.swift */; };
+		OBJ_458 /* UIView+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* UIView+Store.swift */; };
+		OBJ_459 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* UIViewController+Transition.swift */; };
+		OBJ_460 /* UnownedErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* UnownedErased+Router.swift */; };
+		OBJ_461 /* UnownedErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* UnownedErased.swift */; };
+		OBJ_462 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ViewCoordinator.swift */; };
+		OBJ_463 /* WeakErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* WeakErased+Router.swift */; };
+		OBJ_464 /* WeakErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* WeakErased.swift */; };
+		OBJ_471 /* Router+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Router+Combine.swift */; };
+		OBJ_473 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */; };
+		OBJ_502 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* AnimationTests.swift */; };
+		OBJ_503 /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* TestAnimation.swift */; };
+		OBJ_504 /* TestRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* TestRoute.swift */; };
+		OBJ_505 /* TransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* TransitionTests.swift */; };
+		OBJ_506 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* XCTestManifests.swift */; };
+		OBJ_507 /* XCText+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* XCText+Extras.swift */; };
+		OBJ_511 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "XCoordinator::XCoordinator::Product" /* XCoordinator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9BC82EB9233D8CD000C604A8 /* PBXContainerItemProxy */ = {
+		BD35FF7429784C50000990E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "XCoordinator::XCoordinator";
 			remoteInfo = XCoordinator;
 		};
-		9BC82EBC233D8CD100C604A8 /* PBXContainerItemProxy */ = {
+		BD35FF7729784C50000990E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -82,7 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorContextMenuInteractionDelegate.swift; sourceTree = "<group>"; };
+		BD35FF7B29784CC3000990E3 /* CoordinatorContextMenuInteractionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorContextMenuInteractionDelegate.swift; sourceTree = "<group>"; };
 		OBJ_10 /* AnyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCoordinator.swift; sourceTree = "<group>"; };
 		OBJ_11 /* AnyTransitionPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionPerformer.swift; sourceTree = "<group>"; };
 		OBJ_12 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
@@ -97,13 +97,13 @@
 		OBJ_21 /* NavigationAnimationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAnimationDelegate.swift; sourceTree = "<group>"; };
 		OBJ_22 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		OBJ_23 /* NavigationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransition.swift; sourceTree = "<group>"; };
-		OBJ_233 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
-		OBJ_234 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
-		OBJ_235 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
-		OBJ_236 /* XCoordinator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCoordinator.podspec; sourceTree = "<group>"; };
-		OBJ_237 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_238 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_239 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = SOURCE_ROOT; };
 		OBJ_24 /* PageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCoordinator.swift; sourceTree = "<group>"; };
+		OBJ_240 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
+		OBJ_241 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
+		OBJ_243 /* XCoordinator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCoordinator.podspec; sourceTree = "<group>"; };
+		OBJ_244 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_245 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_25 /* PageCoordinatorDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCoordinatorDataSource.swift; sourceTree = "<group>"; };
 		OBJ_26 /* PageTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTransition.swift; sourceTree = "<group>"; };
 		OBJ_27 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
@@ -149,56 +149,57 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_452 /* Frameworks */ = {
+		OBJ_465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_459 /* Frameworks */ = {
+		OBJ_472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_460 /* XCoordinator.framework in Frameworks */,
+				OBJ_473 /* XCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_495 /* Frameworks */ = {
+		OBJ_508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_498 /* XCoordinator.framework in Frameworks */,
+				OBJ_511 /* XCoordinator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_227 /* Products */ = {
+		OBJ_233 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"XCoordinator::XCoordinator::Product" /* XCoordinator.framework */,
-				"XCoordinator::XCoordinatorCombine::Product" /* XCoordinatorCombine.framework */,
 				"XCoordinator::XCoordinatorTests::Product" /* XCoordinatorTests.xctest */,
+				"XCoordinator::XCoordinatorCombine::Product" /* XCoordinatorCombine.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_58 /* Tests */,
-				OBJ_227 /* Products */,
-				OBJ_233 /* Images */,
-				OBJ_234 /* docs */,
-				OBJ_235 /* scripts */,
-				OBJ_236 /* XCoordinator.podspec */,
-				OBJ_237 /* LICENSE */,
-				OBJ_238 /* README.md */,
+				OBJ_233 /* Products */,
+				OBJ_239 /* Images */,
+				OBJ_240 /* docs */,
+				OBJ_241 /* scripts */,
+				OBJ_243 /* XCoordinator.podspec */,
+				OBJ_244 /* LICENSE */,
+				OBJ_245 /* README.md */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_54 /* XCoordinatorCombine */ = {
@@ -252,7 +253,7 @@
 				OBJ_13 /* BasicCoordinator.swift */,
 				OBJ_14 /* Container.swift */,
 				OBJ_15 /* Coordinator.swift */,
-				9B6E0D0523F5BBD100694FA3 /* CoordinatorContextMenuInteractionDelegate.swift */,
+				BD35FF7B29784CC3000990E3 /* CoordinatorContextMenuInteractionDelegate.swift */,
 				OBJ_16 /* CoordinatorPreviewingDelegateObject.swift */,
 				OBJ_17 /* DeepLinking.swift */,
 				OBJ_18 /* GestureRecognizerTarget.swift */,
@@ -301,10 +302,10 @@
 /* Begin PBXNativeTarget section */
 		"XCoordinator::XCoordinator" /* XCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_403 /* Build configuration list for PBXNativeTarget "XCoordinator" */;
+			buildConfigurationList = OBJ_416 /* Build configuration list for PBXNativeTarget "XCoordinator" */;
 			buildPhases = (
-				OBJ_406 /* Sources */,
-				OBJ_452 /* Frameworks */,
+				OBJ_419 /* Sources */,
+				OBJ_465 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,15 +318,15 @@
 		};
 		"XCoordinator::XCoordinatorCombine" /* XCoordinatorCombine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_454 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */;
+			buildConfigurationList = OBJ_467 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */;
 			buildPhases = (
-				OBJ_457 /* Sources */,
-				OBJ_459 /* Frameworks */,
+				OBJ_470 /* Sources */,
+				OBJ_472 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_461 /* PBXTargetDependency */,
+				OBJ_474 /* PBXTargetDependency */,
 			);
 			name = XCoordinatorCombine;
 			productName = XCoordinatorCombine;
@@ -334,15 +335,15 @@
 		};
 		"XCoordinator::XCoordinatorTests" /* XCoordinatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_485 /* Build configuration list for PBXNativeTarget "XCoordinatorTests" */;
+			buildConfigurationList = OBJ_498 /* Build configuration list for PBXNativeTarget "XCoordinatorTests" */;
 			buildPhases = (
-				OBJ_488 /* Sources */,
-				OBJ_495 /* Frameworks */,
+				OBJ_501 /* Sources */,
+				OBJ_508 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_501 /* PBXTargetDependency */,
+				OBJ_514 /* PBXTargetDependency */,
 			);
 			name = XCoordinatorTests;
 			productName = XCoordinatorTests;
@@ -356,7 +357,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 9999;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 9999;
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "XCoordinator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,10 +365,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_227 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_233 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -379,92 +379,92 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_406 /* Sources */ = {
+		OBJ_419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_407 /* Animation.swift in Sources */,
-				OBJ_408 /* AnyCoordinator.swift in Sources */,
-				OBJ_409 /* AnyTransitionPerformer.swift in Sources */,
-				OBJ_410 /* BaseCoordinator.swift in Sources */,
-				OBJ_411 /* BasicCoordinator.swift in Sources */,
-				OBJ_412 /* Container.swift in Sources */,
-				OBJ_413 /* Coordinator.swift in Sources */,
-				OBJ_414 /* CoordinatorPreviewingDelegateObject.swift in Sources */,
-				OBJ_415 /* DeepLinking.swift in Sources */,
-				OBJ_416 /* GestureRecognizerTarget.swift in Sources */,
-				OBJ_417 /* InteractiveTransitionAnimation.swift in Sources */,
-				OBJ_418 /* InterruptibleTransitionAnimation.swift in Sources */,
-				OBJ_419 /* NavigationAnimationDelegate.swift in Sources */,
-				OBJ_420 /* NavigationCoordinator.swift in Sources */,
-				OBJ_421 /* NavigationTransition.swift in Sources */,
-				OBJ_422 /* PageCoordinator.swift in Sources */,
-				OBJ_423 /* PageCoordinatorDataSource.swift in Sources */,
-				OBJ_424 /* PageTransition.swift in Sources */,
-				OBJ_425 /* Presentable.swift in Sources */,
-				OBJ_426 /* RedirectionRouter.swift in Sources */,
-				OBJ_427 /* Route.swift in Sources */,
-				OBJ_428 /* Router.swift in Sources */,
-				OBJ_429 /* SplitCoordinator.swift in Sources */,
-				OBJ_430 /* SplitTransition.swift in Sources */,
-				OBJ_431 /* StaticTransitionAnimation.swift in Sources */,
-				OBJ_432 /* StrongRouter.swift in Sources */,
-				OBJ_433 /* TabBarAnimationDelegate.swift in Sources */,
-				OBJ_434 /* TabBarCoordinator.swift in Sources */,
-				OBJ_435 /* TabBarTransition.swift in Sources */,
-				OBJ_436 /* Transition+Init.swift in Sources */,
-				OBJ_437 /* Transition.swift in Sources */,
-				OBJ_438 /* TransitionAnimation.swift in Sources */,
-				OBJ_439 /* TransitionOptions.swift in Sources */,
-				BD9C193F26397257001A707E /* CoordinatorContextMenuInteractionDelegate.swift in Sources */,
-				OBJ_440 /* TransitionPerformer.swift in Sources */,
-				OBJ_441 /* TransitionProtocol.swift in Sources */,
-				OBJ_442 /* UINavigationController+Transition.swift in Sources */,
-				OBJ_443 /* UIPageViewController+Transition.swift in Sources */,
-				OBJ_444 /* UITabBarController+Transition.swift in Sources */,
-				OBJ_445 /* UIView+Store.swift in Sources */,
-				OBJ_446 /* UIViewController+Transition.swift in Sources */,
-				OBJ_447 /* UnownedErased+Router.swift in Sources */,
-				OBJ_448 /* UnownedErased.swift in Sources */,
-				OBJ_449 /* ViewCoordinator.swift in Sources */,
-				OBJ_450 /* WeakErased+Router.swift in Sources */,
-				OBJ_451 /* WeakErased.swift in Sources */,
+				OBJ_420 /* Animation.swift in Sources */,
+				OBJ_421 /* AnyCoordinator.swift in Sources */,
+				OBJ_422 /* AnyTransitionPerformer.swift in Sources */,
+				OBJ_423 /* BaseCoordinator.swift in Sources */,
+				OBJ_424 /* BasicCoordinator.swift in Sources */,
+				OBJ_425 /* Container.swift in Sources */,
+				OBJ_426 /* Coordinator.swift in Sources */,
+				OBJ_427 /* CoordinatorPreviewingDelegateObject.swift in Sources */,
+				OBJ_428 /* DeepLinking.swift in Sources */,
+				OBJ_429 /* GestureRecognizerTarget.swift in Sources */,
+				OBJ_430 /* InteractiveTransitionAnimation.swift in Sources */,
+				OBJ_431 /* InterruptibleTransitionAnimation.swift in Sources */,
+				OBJ_432 /* NavigationAnimationDelegate.swift in Sources */,
+				OBJ_433 /* NavigationCoordinator.swift in Sources */,
+				OBJ_434 /* NavigationTransition.swift in Sources */,
+				OBJ_435 /* PageCoordinator.swift in Sources */,
+				OBJ_436 /* PageCoordinatorDataSource.swift in Sources */,
+				OBJ_437 /* PageTransition.swift in Sources */,
+				OBJ_438 /* Presentable.swift in Sources */,
+				OBJ_439 /* RedirectionRouter.swift in Sources */,
+				OBJ_440 /* Route.swift in Sources */,
+				OBJ_441 /* Router.swift in Sources */,
+				OBJ_442 /* SplitCoordinator.swift in Sources */,
+				OBJ_443 /* SplitTransition.swift in Sources */,
+				OBJ_444 /* StaticTransitionAnimation.swift in Sources */,
+				OBJ_445 /* StrongRouter.swift in Sources */,
+				OBJ_446 /* TabBarAnimationDelegate.swift in Sources */,
+				OBJ_447 /* TabBarCoordinator.swift in Sources */,
+				OBJ_448 /* TabBarTransition.swift in Sources */,
+				OBJ_449 /* Transition+Init.swift in Sources */,
+				OBJ_450 /* Transition.swift in Sources */,
+				OBJ_451 /* TransitionAnimation.swift in Sources */,
+				OBJ_452 /* TransitionOptions.swift in Sources */,
+				BD35FF7C29784CC3000990E3 /* CoordinatorContextMenuInteractionDelegate.swift in Sources */,
+				OBJ_453 /* TransitionPerformer.swift in Sources */,
+				OBJ_454 /* TransitionProtocol.swift in Sources */,
+				OBJ_455 /* UINavigationController+Transition.swift in Sources */,
+				OBJ_456 /* UIPageViewController+Transition.swift in Sources */,
+				OBJ_457 /* UITabBarController+Transition.swift in Sources */,
+				OBJ_458 /* UIView+Store.swift in Sources */,
+				OBJ_459 /* UIViewController+Transition.swift in Sources */,
+				OBJ_460 /* UnownedErased+Router.swift in Sources */,
+				OBJ_461 /* UnownedErased.swift in Sources */,
+				OBJ_462 /* ViewCoordinator.swift in Sources */,
+				OBJ_463 /* WeakErased+Router.swift in Sources */,
+				OBJ_464 /* WeakErased.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_457 /* Sources */ = {
+		OBJ_470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_458 /* Router+Combine.swift in Sources */,
+				OBJ_471 /* Router+Combine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_488 /* Sources */ = {
+		OBJ_501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_489 /* AnimationTests.swift in Sources */,
-				OBJ_490 /* TestAnimation.swift in Sources */,
-				OBJ_491 /* TestRoute.swift in Sources */,
-				OBJ_492 /* TransitionTests.swift in Sources */,
-				OBJ_493 /* XCTestManifests.swift in Sources */,
-				OBJ_494 /* XCText+Extras.swift in Sources */,
+				OBJ_502 /* AnimationTests.swift in Sources */,
+				OBJ_503 /* TestAnimation.swift in Sources */,
+				OBJ_504 /* TestRoute.swift in Sources */,
+				OBJ_505 /* TransitionTests.swift in Sources */,
+				OBJ_506 /* XCTestManifests.swift in Sources */,
+				OBJ_507 /* XCText+Extras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_461 /* PBXTargetDependency */ = {
+		OBJ_474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "XCoordinator::XCoordinator" /* XCoordinator */;
-			targetProxy = 9BC82EB9233D8CD000C604A8 /* PBXContainerItemProxy */;
+			targetProxy = BD35FF7429784C50000990E3 /* PBXContainerItemProxy */;
 		};
-		OBJ_501 /* PBXTargetDependency */ = {
+		OBJ_514 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "XCoordinator::XCoordinator" /* XCoordinator */;
-			targetProxy = 9BC82EBC233D8CD100C604A8 /* PBXContainerItemProxy */;
+			targetProxy = BD35FF7729784C50000990E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,51 +473,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 					"DEBUG=1",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
@@ -528,57 +500,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"SWIFT_PACKAGE=1",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		OBJ_404 /* Debug */ = {
+		OBJ_417 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,7 +530,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinator_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
@@ -598,17 +542,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = XCoordinator;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		OBJ_405 /* Release */ = {
+		OBJ_418 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,7 +558,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinator_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
@@ -628,14 +570,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = XCoordinator;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		OBJ_455 /* Debug */ = {
+		OBJ_468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -657,14 +598,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = XCoordinatorCombine;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		OBJ_456 /* Release */ = {
+		OBJ_469 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -686,26 +626,26 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = XCoordinatorCombine;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		OBJ_486 /* Debug */ = {
+		OBJ_499 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinatorTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -717,19 +657,20 @@
 			};
 			name = Debug;
 		};
-		OBJ_487 /* Release */ = {
+		OBJ_500 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = XCoordinator.xcodeproj/XCoordinatorTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -753,29 +694,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_403 /* Build configuration list for PBXNativeTarget "XCoordinator" */ = {
+		OBJ_416 /* Build configuration list for PBXNativeTarget "XCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_404 /* Debug */,
-				OBJ_405 /* Release */,
+				OBJ_417 /* Debug */,
+				OBJ_418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_454 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */ = {
+		OBJ_467 /* Build configuration list for PBXNativeTarget "XCoordinatorCombine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_455 /* Debug */,
-				OBJ_456 /* Release */,
+				OBJ_468 /* Debug */,
+				OBJ_469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_485 /* Build configuration list for PBXNativeTarget "XCoordinatorTests" */ = {
+		OBJ_498 /* Build configuration list for PBXNativeTarget "XCoordinatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_486 /* Debug */,
-				OBJ_487 /* Release */,
+				OBJ_499 /* Debug */,
+				OBJ_500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
