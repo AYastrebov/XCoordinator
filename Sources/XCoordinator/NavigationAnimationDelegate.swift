@@ -33,6 +33,8 @@ open class NavigationAnimationDelegate: NSObject {
 
     /// The transition progress threshold for the interactive pop transition to succeed
     open var transitionProgressThreshold: CGFloat { 0.5 }
+    
+    open var onPanGestureBegin: (() -> Void)?
 
     // swiftlint:disable:next weak_delegate
     private var interactivePopGestureRecognizerDelegate: UIGestureRecognizerDelegate?
@@ -182,8 +184,12 @@ extension NavigationAnimationDelegate: UIGestureRecognizerDelegate {
     ///     - it is the interactivePopGestureRecognizer to call this method
     ///
     open func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        print("[DDD]: gestureRecognizerShouldBegin for recognizer=\(gestureRecognizer)")
+        
         switch gestureRecognizer {
         case navigationController?.interactivePopGestureRecognizer:
+            onPanGestureBegin?()
+            
             let delegateAction = NavigationAnimationDelegate.interactivePopGestureRecognizerDelegateAction
 
             guard interactivePopGestureRecognizerDelegate?.responds(to: delegateAction) ?? true else {
@@ -267,8 +273,10 @@ extension NavigationAnimationDelegate: UIGestureRecognizerDelegate {
         self.navigationController = navigationController
         guard let popRecognizer = navigationController.interactivePopGestureRecognizer,
             popRecognizer.delegate !== self else {
+                print("[DDD]: delegate wasn't installed")
                 return
         }
+        print("[DDD]: delegate was installed")
         interactivePopGestureRecognizerDelegate = popRecognizer.delegate
         popRecognizer.delegate = self
     }
